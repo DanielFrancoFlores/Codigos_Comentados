@@ -1,7 +1,6 @@
 
 
-
-´´´mermaid
+`~mermaid
 sequenceDiagram
 Alice ->> Bob: Hello Bob, how are you?
 Bob-->>John: How about you John?
@@ -23,5 +22,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODkyMDk3MywtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTE3Mjc1ODA0OTMsLTMzMjQ1NTM2M119
 -->
