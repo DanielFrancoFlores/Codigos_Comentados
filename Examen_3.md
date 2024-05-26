@@ -1,7 +1,6 @@
 
 
-
-~~~mermaid
+```mermaid
 sequenceDiagram
 Alice ->> Bob: Hello Bob, how are you?
 Bob-->>John: How about you John?
@@ -15,13 +14,13 @@ Alice->John: Yes... John, how are you?
 
 And this will produce a flow chart:
 
-~~~mermaid
+```mermaid
 graph LR
 A[Square Rect] -- Link text --> B((Circle))
 A --> C(Round Rect)
 B --> D{Rhombus}
 C --> D
-~~~
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTI4OTUxNzEsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbNDcwODI1MDczLC0zMzI0NTUzNjNdfQ==
 -->
