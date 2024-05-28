@@ -114,11 +114,11 @@ cout << "La suma de la producción en meses impares es: "
 	<< sumaProduccionImpar << endl;
 ```	
 
-Y el ultimo problema a resolver 
+Y el ultimo problema a resolver con 
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMTgzNzEwNiwtNjg1NTQ2NzM3LC0xMj
+eyJoaXN0b3J5IjpbMTczMzI1OTE4NCwtNjg1NTQ2NzM3LC0xMj
 MxNDAwODE1LC0xMzI2NzU2ODAzLC02NzkxODkxMjIsLTI4MDA2
 NzQ3NSwtMTYyODkxOTM4NywtNzIzMjk4NzUyLC0xNDI2ODE1OT
 E1LC0xOTUxMTIzODI2LC05NTgzNzM5MCwtMTA2ODk0MjgwLC0x
