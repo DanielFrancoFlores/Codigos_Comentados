@@ -1,11 +1,13 @@
+# Documentación de código
 
-
+  #### Daniel Rigoberto Franco Flores
+Los datos de la Secretaría de Economía, relacionado a la producción de las N fábricas en cada uno de los meses del año anterior, en este problema nos plantean diferentes resoluciones o problemas a resolver que veremos a continuación:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3ODE4ODEwLC02MzU0ODQyNDUsMTUwND
-M0MjYwMCw3NzgwODQyMzIsLTY4NTU0NjczNywtMTIzMTQwMDgx
-NSwtMTMyNjc1NjgwMywtNjc5MTg5MTIyLC0yODAwNjc0NzUsLT
-E2Mjg5MTkzODcsLTcyMzI5ODc1MiwtMTQyNjgxNTkxNSwtMTk1
-MTEyMzgyNiwtOTU4MzczOTAsLTEwNjg5NDI4MCwtMTc0NjAyOT
-I2LC0yMDg4NzQ2NjEyLDI2MzgzNjkwOSw0NzA4MjUwNzMsLTMz
-MjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTEzODgwNTQ3OTQsNDk3ODE4ODEwLC02Mz
+U0ODQyNDUsMTUwNDM0MjYwMCw3NzgwODQyMzIsLTY4NTU0Njcz
+NywtMTIzMTQwMDgxNSwtMTMyNjc1NjgwMywtNjc5MTg5MTIyLC
+0yODAwNjc0NzUsLTE2Mjg5MTkzODcsLTcyMzI5ODc1MiwtMTQy
+NjgxNTkxNSwtMTk1MTEyMzgyNiwtOTU4MzczOTAsLTEwNjg5ND
+I4MCwtMTc0NjAyOTI2LC0yMDg4NzQ2NjEyLDI2MzgzNjkwOSw0
+NzA4MjUwNzNdfQ==
 -->
