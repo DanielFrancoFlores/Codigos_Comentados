@@ -65,16 +65,16 @@ Este seria el calculo para llegar a encontrar la fabrica que mas produjo en el a
 ```
 
 Esta vendria siendo la impresion en pantalla donde muestra la clave de la fabrica que mas produjo en el año pasado y cuanto fue lo que produjo
- ```cpp
+```cpp
  cout << "La fábrica que más produjo fue la clave " << FABRICAS[indiceFabricaMayor]
 		 << " con una producción de " << mayorProduccion << endl;
- ```
+```
 
 Para el segundo problema que se nos plantea **encontra las fabricas que superaron cierta produccion en un mes** que este caso es de **150000** y el mes que nos interesara saber o investigar
 ```cpp
  const float ProduccionSuperior = 150000;
  int mesInteres;
- ```
+```
  
 Aqui leemos al mes que queremos hacer referencia
 ```cpp
@@ -119,13 +119,20 @@ Para iniciar con este problema, iniciaremos una variable flotante para hacer la 
 ```cpp
 float sumaTotalProduccion = 0;
 ```
+for (int i = 0; i < N; i++) {
+	for (int j = 0; j < meses; j++) {
+		umaTotalProduccion += VentasMes[i][j];
+	}
+}
+float promedioAnual = sumaTotalProduccion / (N * meses); // Se calcula el promedio anual
+	
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE5MTY1OTEsNzc4MDg0MjMyLC02ODU1ND
-Y3MzcsLTEyMzE0MDA4MTUsLTEzMjY3NTY4MDMsLTY3OTE4OTEy
-MiwtMjgwMDY3NDc1LC0xNjI4OTE5Mzg3LC03MjMyOTg3NTIsLT
-E0MjY4MTU5MTUsLTE5NTExMjM4MjYsLTk1ODM3MzkwLC0xMDY4
-OTQyODAsLTE3NDYwMjkyNiwtMjA4ODc0NjYxMiwyNjM4MzY5MD
-ksNDcwODI1MDczLC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTY0OTAwMDU5MSw3NzgwODQyMzIsLTY4NT
+U0NjczNywtMTIzMTQwMDgxNSwtMTMyNjc1NjgwMywtNjc5MTg5
+MTIyLC0yODAwNjc0NzUsLTE2Mjg5MTkzODcsLTcyMzI5ODc1Mi
+wtMTQyNjgxNTkxNSwtMTk1MTEyMzgyNiwtOTU4MzczOTAsLTEw
+Njg5NDI4MCwtMTc0NjAyOTI2LC0yMDg4NzQ2NjEyLDI2MzgzNj
+kwOSw0NzA4MjUwNzMsLTMzMjQ1NTM2M119
 -->
