@@ -140,22 +140,32 @@ Fin del codigo
 return 0;
 }
 ```
-
-
-Para comenzar con el codigo, incluiremos las siguientes librerias y declaraciones en c++:
-
 ```cpp
-#include <iostream>
-
-using namespace std;
+// Lectura de las claves de las fábricas
+cout << "Introduzca las claves de las fábricas:" << endl;
+for (int i = 0; i < N; i++) {
+cout << "[" << i << "]: ";
+cin >> FABRICAS[i];
+}
+// Lectura de las ventas por mes de cada fábrica
+cout << "Introduzca las ventas de las fábricas por mes:" << endl;
+for (int i = 0; i < N; i++) {
+cout << "Fábrica " << FABRICAS[i] << ":" << endl;
+	for (int j = 0; j < meses; j++) {
+		cout << "Mes " << (j + 1) << ": ";
+		cin >> VentasMes[i][j];
+	}
+}
 
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTY4OTQ1OCwtNjM1NDg0MjQ1LDE1MD
-QzNDI2MDAsNzc4MDg0MjMyLC02ODU1NDY3MzcsLTEyMzE0MDA4
-MTUsLTEzMjY3NTY4MDMsLTY3OTE4OTEyMiwtMjgwMDY3NDc1LC
-0xNjI4OTE5Mzg3LC03MjMyOTg3NTIsLTE0MjY4MTU5MTUsLTE5
-NTExMjM4MjYsLTk1ODM3MzkwLC0xMDY4OTQyODAsLTE3NDYwMj
-kyNiwtMjA4ODc0NjYxMiwyNjM4MzY5MDksNDcwODI1MDczLC0z
-MzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTEzMjczMDE4OTIsLTYzNTQ4NDI0NSwxNT
+A0MzQyNjAwLDc3ODA4NDIzMiwtNjg1NTQ2NzM3LC0xMjMxNDAw
+ODE1LC0xMzI2NzU2ODAzLC02NzkxODkxMjIsLTI4MDA2NzQ3NS
+wtMTYyODkxOTM4NywtNzIzMjk4NzUyLC0xNDI2ODE1OTE1LC0x
+OTUxMTIzODI2LC05NTgzNzM5MCwtMTA2ODk0MjgwLC0xNzQ2MD
+I5MjYsLTIwODg3NDY2MTIsMjYzODM2OTA5LDQ3MDgyNTA3Mywt
+MzMyNDU1MzYzXX0=
 -->
