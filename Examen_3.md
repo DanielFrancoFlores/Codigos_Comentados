@@ -110,12 +110,28 @@ Para iniciar con este problema, iniciaremos una variable flotante para hacer la 
 ```cpp
 float sumaTotalProduccion = 0;
 ```
+Iniciamos los calculos haciendo dos ciclos for para poder hacer la suma total de todos los meses
+
+```cpp
+for (int i = 0; i < N; i++) {
+	for (int j = 0; j < meses; j++) {
+		sumaTotalProduccion += VentasMes[i][j];
+	}
+}
+```
+Después iniciamos una variable flotante para poder calcular el promedio anual de la suma total de los meses
+
+```cpp
+
+float promedioAnual = sumaTotalProduccion / (N * meses);
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTE0MTkwMSw0OTc4MTg4MTAsLTYzNT
-Q4NDI0NSwxNTA0MzQyNjAwLDc3ODA4NDIzMiwtNjg1NTQ2NzM3
-LC0xMjMxNDAwODE1LC0xMzI2NzU2ODAzLC02NzkxODkxMjIsLT
-I4MDA2NzQ3NSwtMTYyODkxOTM4NywtNzIzMjk4NzUyLC0xNDI2
-ODE1OTE1LC0xOTUxMTIzODI2LC05NTgzNzM5MCwtMTA2ODk0Mj
-gwLC0xNzQ2MDI5MjYsLTIwODg3NDY2MTIsMjYzODM2OTA5LDQ3
-MDgyNTA3M119
+eyJoaXN0b3J5IjpbLTU5NzU3NDcwLDQ5NzgxODgxMCwtNjM1ND
+g0MjQ1LDE1MDQzNDI2MDAsNzc4MDg0MjMyLC02ODU1NDY3Mzcs
+LTEyMzE0MDA4MTUsLTEzMjY3NTY4MDMsLTY3OTE4OTEyMiwtMj
+gwMDY3NDc1LC0xNjI4OTE5Mzg3LC03MjMyOTg3NTIsLTE0MjY4
+MTU5MTUsLTE5NTExMjM4MjYsLTk1ODM3MzkwLC0xMDY4OTQyOD
+AsLTE3NDYwMjkyNiwtMjA4ODc0NjYxMiwyNjM4MzY5MDksNDcw
+ODI1MDczXX0=
 -->
