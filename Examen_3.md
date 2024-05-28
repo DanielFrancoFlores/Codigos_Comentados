@@ -114,14 +114,15 @@ cout << "La suma de la producción en meses impares es: "
 	<< sumaProduccionImpar << endl;
 ```	
 
-Y el ultimo problema a resolver con 
+Y el ultimo problema a resolver en este codigo es **calcular el promedio general anual.**
+Para iniciar con este problema, iniciaremos una
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzI1OTE4NCwtNjg1NTQ2NzM3LC0xMj
-MxNDAwODE1LC0xMzI2NzU2ODAzLC02NzkxODkxMjIsLTI4MDA2
-NzQ3NSwtMTYyODkxOTM4NywtNzIzMjk4NzUyLC0xNDI2ODE1OT
-E1LC0xOTUxMTIzODI2LC05NTgzNzM5MCwtMTA2ODk0MjgwLC0x
-NzQ2MDI5MjYsLTIwODg3NDY2MTIsMjYzODM2OTA5LDQ3MDgyNT
-A3MywtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbNzc4MDg0MjMyLC02ODU1NDY3MzcsLTEyMz
+E0MDA4MTUsLTEzMjY3NTY4MDMsLTY3OTE4OTEyMiwtMjgwMDY3
+NDc1LC0xNjI4OTE5Mzg3LC03MjMyOTg3NTIsLTE0MjY4MTU5MT
+UsLTE5NTExMjM4MjYsLTk1ODM3MzkwLC0xMDY4OTQyODAsLTE3
+NDYwMjkyNiwtMjA4ODc0NjYxMiwyNjM4MzY5MDksNDcwODI1MD
+czLC0zMzI0NTUzNjNdfQ==
 -->
