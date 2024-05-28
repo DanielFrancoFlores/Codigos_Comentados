@@ -12,11 +12,16 @@ using namespace std;
 En esta seccion, dentro del main, declaramos las siguientes variables:
 ```cpp
 int main() { 
-const int meses = 12;  // Se define una constante para el número de meses
-int N; // Se declara una variable para almacenar el número de fábricas
+const int meses = 12;  
+int N; 
+```
+En esta etapa del codigo
+```cpp
+cout << "¿Cuántas fábricas tendrá el arreglo?: "; 
+cin >> N; // Se lee el número de fábricas desde la entrada estándar
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTM0NTA1NCwtMTA2ODk0MjgwLC0xNz
+eyJoaXN0b3J5IjpbLTMxMzUwMTQzMSwtMTA2ODk0MjgwLC0xNz
 Q2MDI5MjYsLTIwODg3NDY2MTIsMjYzODM2OTA5LDQ3MDgyNTA3
 MywtMzMyNDU1MzYzXX0=
 -->
