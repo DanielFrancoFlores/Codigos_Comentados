@@ -33,9 +33,18 @@ for (int i = 0; i < N; i++) {
 	cout << "[" << i << "]: "; 
 	cin >> FABRICAS[i]; 
 }
+// Lectura de las ventas por mes de cada fábrica
+cout << "Introduzca las ventas de las fábricas por mes:" << endl; 
+for (int i = 0; i < N; i++) { 
+cout << "Fábrica " << FABRICAS[i] << ":" << endl; 
+	for (int j = 0; j < meses; j++) { 
+		cout << "Mes " << (j + 1) << ": "; 
+		cin >> VentasMes[i][j]; 
+	} 
+}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0Njc3MjQzLC0xMDY4OTQyODAsLTE3ND
-YwMjkyNiwtMjA4ODc0NjYxMiwyNjM4MzY5MDksNDcwODI1MDcz
-LC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTE2MDkxMzEwMDUsLTEwNjg5NDI4MCwtMT
+c0NjAyOTI2LC0yMDg4NzQ2NjEyLDI2MzgzNjkwOSw0NzA4MjUw
+NzMsLTMzMjQ1NTM2M119
 -->
