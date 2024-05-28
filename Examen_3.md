@@ -4,13 +4,18 @@
 
 Los datos de la Secretaría de Economía, relacionado a la producción de las N fábricas en cada uno de los meses del año anterior, en este problema nos plantean diferentes resoluciones o problemas a resolver que veremos a continuación:
 
-Para comenzar con el codigo, incluiremos las siguientes librerias y del
+Para comenzar con el codigo, incluiremos las siguientes librerias y declaraciones en c++
 ```cpp
 #include <iostream>
 using namespace std;
 ```
+
+```cpp
+int main() { 
+const int meses = 3; // Se define una constante para el número de meses int N; // Se declara una variable para almacenar el número de fábricas
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDEwMjU4NTksLTEwNjg5NDI4MCwtMT
-c0NjAyOTI2LC0yMDg4NzQ2NjEyLDI2MzgzNjkwOSw0NzA4MjUw
-NzMsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbMjY4MDUxMjIyLC0xMDY4OTQyODAsLTE3ND
+YwMjkyNiwtMjA4ODc0NjYxMiwyNjM4MzY5MDksNDcwODI1MDcz
+LC0zMzI0NTUzNjNdfQ==
 -->
