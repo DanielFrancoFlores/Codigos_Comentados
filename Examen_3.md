@@ -5,9 +5,8 @@
 Los datos de la Secretaría de Economía, relacionado a la producción de las N fábricas en cada uno de los meses del año anterior, en este problema nos plantean diferentes resoluciones o problemas a resolver que veremos a continuación:
 cpp||
 include <iostream>
-using namespace std;
-´´´|¿'¿'o'¿¿'¿ññbbnnmmjhjyhhgye´+¿
+using namespace std;|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTk1MDk1NDYsLTIwODg3NDY2MTIsMj
-YzODM2OTA5LDQ3MDgyNTA3MywtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbNjM4MDkzODMwLC0yMDg4NzQ2NjEyLDI2Mz
+gzNjkwOSw0NzA4MjUwNzMsLTMzMjQ1NTM2M119
 -->
