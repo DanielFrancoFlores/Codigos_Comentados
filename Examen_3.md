@@ -110,12 +110,13 @@ for (int j = 0; j < meses; j++) {
 ```
 Impresion de los datos en pantalla
 ```cpp
-cout << "La suma de la producción en meses impares es: " << sumaProduccionImpar << endl;
-			
+cout << "La suma de la producción en meses impares es: " 
+	<< sumaProduccionImpar << endl;
+```	
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODM2ODE4OSwtMTIzMTQwMDgxNSwtMT
+eyJoaXN0b3J5IjpbLTY4NTU0NjczNywtMTIzMTQwMDgxNSwtMT
 MyNjc1NjgwMywtNjc5MTg5MTIyLC0yODAwNjc0NzUsLTE2Mjg5
 MTkzODcsLTcyMzI5ODc1MiwtMTQyNjgxNTkxNSwtMTk1MTEyMz
 gyNiwtOTU4MzczOTAsLTEwNjg5NDI4MCwtMTc0NjAyOTI2LC0y
