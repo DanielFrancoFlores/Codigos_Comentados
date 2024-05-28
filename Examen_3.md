@@ -119,17 +119,28 @@ Para iniciar con este problema, iniciaremos una variable flotante para hacer la 
 ```cpp
 float sumaTotalProduccion = 0;
 ```
+```cpp
 for (int i = 0; i < N; i++) {
 	for (int j = 0; j < meses; j++) {
 		umaTotalProduccion += VentasMes[i][j];
 	}
 }
-float promedioAnual = sumaTotalProduccion / (N * meses); // Se calcula el promedio anual
-	
+```
+```cpp
+float promedioAnual = sumaTotalProduccion / (N * meses);
+```
+```
+```cpp 
+cout << "El promedio general anual de producción es: " << promedioAnual << endl;
+```
+```cpp
+return 0;
+}
+```
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTAwMDU5MSw3NzgwODQyMzIsLTY4NT
+eyJoaXN0b3J5IjpbLTg1ODg1NDQ0OCw3NzgwODQyMzIsLTY4NT
 U0NjczNywtMTIzMTQwMDgxNSwtMTMyNjc1NjgwMywtNjc5MTg5
 MTIyLC0yODAwNjc0NzUsLTE2Mjg5MTkzODcsLTcyMzI5ODc1Mi
 wtMTQyNjgxNTkxNSwtMTk1MTEyMzgyNiwtOTU4MzczOTAsLTEw
