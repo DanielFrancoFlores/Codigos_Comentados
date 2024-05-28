@@ -69,18 +69,24 @@ Para el segundo problema que se nos plantea **encontra las fábricas que superar
 ```cpp
 const float ProduccionSuperior = 150000;
 int mesInteres;
-Aquí leemos al mes que queremos hacer referencia
-
-```cpp
-
-cout << "¿En qué mes desea saber la producción de las fábricas?: ";
-
-cin >> mesInteres; // Se lee el mes de interés
-
 ```
+Aquí leemos al mes que queremos hacer referencia
+```cpp
+cout << "¿En qué mes desea saber la producción de las fábricas?: ";
+cin >> mesInteres; 
+```
+Esta parte del código, muestra los cálculos y muestra el código de las fábricas que superaron la cantidad de producción al mes, esto se logra con un ciclo for para las claves de las empresas y con una comparación hecha por un if de si la producción hecha en ese mes es superior a 150000
+```cpp
+cout << "Las fábricas que superaron una producción de " << ProduccionSuperior
+<< " en el mes " << mesInteres << " son:" << endl;
+for (int i = 0; i < N; i++) {
+	if (VentasMes[i][mesInteres - 1] > ProduccionSuperior) {
+		cout << "Clave de fábrica: " << FABRICAS[i] << endl;
+	}
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk1NDQzNDE4LDQ5NzgxODgxMCwtNjM1ND
+eyJoaXN0b3J5IjpbNzg3OTE1ODgxLDQ5NzgxODgxMCwtNjM1ND
 g0MjQ1LDE1MDQzNDI2MDAsNzc4MDg0MjMyLC02ODU1NDY3Mzcs
 LTEyMzE0MDA4MTUsLTEzMjY3NTY4MDMsLTY3OTE4OTEyMiwtMj
 gwMDY3NDc1LC0xNjI4OTE5Mzg3LC03MjMyOTg3NTIsLTE0MjY4
