@@ -45,12 +45,15 @@ cout << "Fábrica " << FABRICAS[i] << ":" << endl;
 }
  ```
  
+ Para el primer problema que se nos presenta nos indican **encontar la fabrica que mas produjo.**
+ Para iniciar, 
+ 
 ```cpp
 int indiceFabricaMayor = 0;
 float mayorProduccion = VentasMes[0][0];
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNDA3MTI4NSwtMTA2ODk0MjgwLC0xNz
-Q2MDI5MjYsLTIwODg3NDY2MTIsMjYzODM2OTA5LDQ3MDgyNTA3
-MywtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTEyNDc5NzYyODcsLTEwNjg5NDI4MCwtMT
+c0NjAyOTI2LC0yMDg4NzQ2NjEyLDI2MzgzNjkwOSw0NzA4MjUw
+NzMsLTMzMjQ1NTM2M119
 -->
