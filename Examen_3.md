@@ -100,8 +100,18 @@ for (int j = 0; j < meses; j++) {
 	}
 }
 ```
+Impresión de los datos en pantalla
+```cpp
+cout << "La suma de la producción en meses impares es: "
+<< sumaProduccionImpar << endl;
+```
+Y el ultimo problema a resolver en este código es **calcular el promedio general anual de las empresas**
+Para iniciar con este problema, iniciaremos una variable flotante para hacer la sumatoria
+```cpp
+float sumaTotalProduccion = 0;
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjUwNDc1Nyw0OTc4MTg4MTAsLTYzNT
+eyJoaXN0b3J5IjpbMTkwNTE0MTkwMSw0OTc4MTg4MTAsLTYzNT
 Q4NDI0NSwxNTA0MzQyNjAwLDc3ODA4NDIzMiwtNjg1NTQ2NzM3
 LC0xMjMxNDAwODE1LC0xMzI2NzU2ODAzLC02NzkxODkxMjIsLT
 I4MDA2NzQ3NSwtMTYyODkxOTM4NywtNzIzMjk4NzUyLC0xNDI2
