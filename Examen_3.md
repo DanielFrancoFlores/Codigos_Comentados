@@ -70,14 +70,18 @@ Esta vendria siendo la impresion en pantalla donde muestra la clave de la fabric
 		 << " con una producción de " << mayorProduccion << endl;
  ```
 
-Para el segundo problema que se nos plantea **encontra las fabricas que superaron cierta produccion en un mes** que este caso es de **150000**
+Para el segundo problema que se nos plantea **encontra las fabricas que superaron cierta produccion en un mes** que este caso es de **150000** y el mes que nos interesara saber o investigar
  ```cpp
  const float ProduccionSuperior = 150000;
  int mesInteres;
  ```
+Aqui leemos al mes que queremos hacer referencia
+ ```cpp
+cout << "¿En qué mes desea saber la producción de las fábricas?: ";
+cin >> mesInteres; // Se lee el mes de interés
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjY4MTU5MTUsLTE5NTExMjM4MjYsLT
-k1ODM3MzkwLC0xMDY4OTQyODAsLTE3NDYwMjkyNiwtMjA4ODc0
-NjYxMiwyNjM4MzY5MDksNDcwODI1MDczLC0zMzI0NTUzNjNdfQ
-==
+eyJoaXN0b3J5IjpbNjI0NzYwNzg2LC0xNDI2ODE1OTE1LC0xOT
+UxMTIzODI2LC05NTgzNzM5MCwtMTA2ODk0MjgwLC0xNzQ2MDI5
+MjYsLTIwODg3NDY2MTIsMjYzODM2OTA5LDQ3MDgyNTA3MywtMz
+MyNDU1MzYzXX0=
 -->
