@@ -127,7 +127,7 @@ for (int i = 0; i < N; i++) {
 	}
 }
 ```
-Despues 
+Despues iniciamos
 ```cpp
 float promedioAnual = sumaTotalProduccion / (N * meses);
 ```
@@ -142,7 +142,7 @@ return 0;
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMzI0MzQ0OCw3NzgwODQyMzIsLTY4NT
+eyJoaXN0b3J5IjpbMTUwNDM0MjYwMCw3NzgwODQyMzIsLTY4NT
 U0NjczNywtMTIzMTQwMDgxNSwtMTMyNjc1NjgwMywtNjc5MTg5
 MTIyLC0yODAwNjc0NzUsLTE2Mjg5MTkzODcsLTcyMzI5ODc1Mi
 wtMTQyNjgxNTkxNSwtMTk1MTEyMzgyNiwtOTU4MzczOTAsLTEw
