@@ -71,16 +71,16 @@ Esta vendria siendo la impresion en pantalla donde muestra la clave de la fabric
  ```
 
 Para el segundo problema que se nos plantea **encontra las fabricas que superaron cierta produccion en un mes** que este caso es de **150000** y el mes que nos interesara saber o investigar
- ```cpp
+```cpp
  const float ProduccionSuperior = 150000;
  int mesInteres;
  ```
  
 Aqui leemos al mes que queremos hacer referencia
- ```cpp
+```cpp
 cout << "¿En qué mes desea saber la producción de las fábricas?: ";
 cin >> mesInteres; // Se lee el mes de interés
- ```
+```
 
 Esta parte del codigo, muestra los calculos y muestra el codigo de las fabricas que superaron la canttidad de produccion al mes, esto se logra con un ciclo for para las claves de las empresas y con una comparacion hecha por un if de si la produccion hecha en ese mes es superior a 150000
 ```cpp
@@ -112,17 +112,20 @@ Impresion de los datos en pantalla
 ```cpp
 cout << "La suma de la producción en meses impares es: " 
 	<< sumaProduccionImpar << endl;
-```	
+```
 
 Y el ultimo problema a resolver en este codigo es **calcular el promedio general anual.**
-Para iniciar con este problema, iniciaremos una 
+Para iniciar con este problema, iniciaremos una variable flotante para hacer la sumatoria
+```cpp
+float sumaTotalProduccion = 0;
+```
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjA1NTYyOCw3NzgwODQyMzIsLTY4NT
-U0NjczNywtMTIzMTQwMDgxNSwtMTMyNjc1NjgwMywtNjc5MTg5
-MTIyLC0yODAwNjc0NzUsLTE2Mjg5MTkzODcsLTcyMzI5ODc1Mi
-wtMTQyNjgxNTkxNSwtMTk1MTEyMzgyNiwtOTU4MzczOTAsLTEw
-Njg5NDI4MCwtMTc0NjAyOTI2LC0yMDg4NzQ2NjEyLDI2MzgzNj
-kwOSw0NzA4MjUwNzMsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbODE5MTY1OTEsNzc4MDg0MjMyLC02ODU1ND
+Y3MzcsLTEyMzE0MDA4MTUsLTEzMjY3NTY4MDMsLTY3OTE4OTEy
+MiwtMjgwMDY3NDc1LC0xNjI4OTE5Mzg3LC03MjMyOTg3NTIsLT
+E0MjY4MTU5MTUsLTE5NTExMjM4MjYsLTk1ODM3MzkwLC0xMDY4
+OTQyODAsLTE3NDYwMjkyNiwtMjA4ODc0NjYxMiwyNjM4MzY5MD
+ksNDcwODI1MDczLC0zMzI0NTUzNjNdfQ==
 -->
