@@ -20,13 +20,14 @@ En esta etapa del codigo estaremos leyendo el numero de fabricas a analizar
 cout << "¿Cuántas fábricas tendrá el arreglo?: "; 
 cin >> N; 
 ```
-
+En esta seccion del codigo declaramos las siguientes matrices:
 ```cpp
 int FABRICAS[N]; 
 float VentasMes[N][meses];
  ```
+```cpp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2MzQwMDg1LC0xMDY4OTQyODAsLTE3ND
-YwMjkyNiwtMjA4ODc0NjYxMiwyNjM4MzY5MDksNDcwODI1MDcz
-LC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbMTUxMTAxNjc1MywtMTA2ODk0MjgwLC0xNz
+Q2MDI5MjYsLTIwODg3NDY2MTIsMjYzODM2OTA5LDQ3MDgyNTA3
+MywtMzMyNDU1MzYzXX0=
 -->
