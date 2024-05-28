@@ -142,9 +142,16 @@ return 0;
 ```
 
 
+Para comenzar con el codigo, incluiremos las siguientes librerias y declaraciones en c++:
 
+```cpp
+#include <iostream>
+
+using namespace std;
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzc0MzA3MywtNjM1NDg0MjQ1LDE1MD
+eyJoaXN0b3J5IjpbLTk0NTY4OTQ1OCwtNjM1NDg0MjQ1LDE1MD
 QzNDI2MDAsNzc4MDg0MjMyLC02ODU1NDY3MzcsLTEyMzE0MDA4
 MTUsLTEzMjY3NTY4MDMsLTY3OTE4OTEyMiwtMjgwMDY3NDc1LC
 0xNjI4OTE5Mzg3LC03MjMyOTg3NTIsLTE0MjY4MTU5MTUsLTE5
