@@ -79,9 +79,10 @@ Aqui leemos al mes que queremos hacer referencia
  ```cpp
 cout << "¿En qué mes desea saber la producción de las fábricas?: ";
 cin >> mesInteres; // Se lee el mes de interés
+ ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0NzYwNzg2LC0xNDI2ODE1OTE1LC0xOT
-UxMTIzODI2LC05NTgzNzM5MCwtMTA2ODk0MjgwLC0xNzQ2MDI5
-MjYsLTIwODg3NDY2MTIsMjYzODM2OTA5LDQ3MDgyNTA3MywtMz
-MyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTcyMzI5ODc1MiwtMTQyNjgxNTkxNSwtMT
+k1MTEyMzgyNiwtOTU4MzczOTAsLTEwNjg5NDI4MCwtMTc0NjAy
+OTI2LC0yMDg4NzQ2NjEyLDI2MzgzNjkwOSw0NzA4MjUwNzMsLT
+MzMjQ1NTM2M119
 -->
