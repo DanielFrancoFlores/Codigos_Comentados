@@ -81,7 +81,7 @@ cout << "¿En qué mes desea saber la producción de las fábricas?: ";
 cin >> mesInteres; // Se lee el mes de interés
  ```
 ```cpp
-cout << "¿En qué mes desea saber la producción de las fábricas?: ";
+cout << "Las fábricas que superaron una producción de " << ProduccionSuperior
 		<< " en el mes " << mesInteres << " son:" << endl;
 for (int i = 0; i < N; i++) {
 	if (VentasMes[i][mesInteres - 1] > ProduccionSuperior) {
@@ -89,8 +89,9 @@ for (int i = 0; i < N; i++) {
 	}
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDA2NzQ3NSwtMTYyODkxOTM4NywtNz
-IzMjk4NzUyLC0xNDI2ODE1OTE1LC0xOTUxMTIzODI2LC05NTgz
-NzM5MCwtMTA2ODk0MjgwLC0xNzQ2MDI5MjYsLTIwODg3NDY2MT
-IsMjYzODM2OTA5LDQ3MDgyNTA3MywtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbODI1MTgyOTAyLC0yODAwNjc0NzUsLTE2Mj
+g5MTkzODcsLTcyMzI5ODc1MiwtMTQyNjgxNTkxNSwtMTk1MTEy
+MzgyNiwtOTU4MzczOTAsLTEwNjg5NDI4MCwtMTc0NjAyOTI2LC
+0yMDg4NzQ2NjEyLDI2MzgzNjkwOSw0NzA4MjUwNzMsLTMzMjQ1
+NTM2M119
 -->
