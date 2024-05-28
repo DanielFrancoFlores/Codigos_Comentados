@@ -123,9 +123,18 @@ Después iniciamos una variable flotante para poder calcular el promedio anual d
 ```cpp
 float promedioAnual = sumaTotalProduccion / (N * meses);
 ```
+Por ultimo imprimimos el resultado en pantalla
+```cpp
+cout << "El promedio general anual de producción es: " << promedioAnual << endl;
+```
+Fin del codigo
+```cpp
+return 0;
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTg4OTk0NiwtMTY4MTEyMTE3NSw1Mz
+eyJoaXN0b3J5IjpbMTM4MzgzOTgzMSwtMTY4MTEyMTE3NSw1Mz
 ExNDU5NDEsLTE2ODExMjExNzUsNDk3ODE4ODEwLC02MzU0ODQy
 NDUsMTUwNDM0MjYwMCw3NzgwODQyMzIsLTY4NTU0NjczNywtMT
 IzMTQwMDgxNSwtMTMyNjc1NjgwMywtNjc5MTg5MTIyLC0yODAw
