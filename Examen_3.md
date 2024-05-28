@@ -46,14 +46,18 @@ cout << "Fábrica " << FABRICAS[i] << ":" << endl;
  ```
  
  Para el primer problema que se nos presenta nos indican **encontar la fabrica que mas produjo.**
- Para iniciar, 
- 
-```cpp
+ Para iniciar, creamos nuvas variables y las inicializamos para este problema, donde uno indicara el indice y el otro se tomara como un mayor
+ ```cpp
 int indiceFabricaMayor = 0;
 float mayorProduccion = VentasMes[0][0];
  ```
+
+ ```cpp
+ for (int i = 0; i < N; i++) {
+	 for (int j = 0; j < meses; j++) {
+	 |if (VentasMes[i][j] > mayorProduccion) {
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDc5NzYyODcsLTEwNjg5NDI4MCwtMT
+eyJoaXN0b3J5IjpbLTIxMzE1NDY1NzUsLTEwNjg5NDI4MCwtMT
 c0NjAyOTI2LC0yMDg4NzQ2NjEyLDI2MzgzNjkwOSw0NzA4MjUw
 NzMsLTMzMjQ1NTM2M119
 -->
