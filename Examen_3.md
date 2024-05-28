@@ -51,6 +51,7 @@ cout << "Fábrica " << FABRICAS[i] << ":" << endl;
 int indiceFabricaMayor = 0;
 float mayorProduccion = VentasMes[0][0];
  ```
+ 
 Este seria el calculo para llegar a encontrar la fabrica que mas produjo en el año, podemos observar que se usa un ciclo for para iterar en la matriz y un if para poder hacer comparaciones y llegar a la fabrica que mas produjo en el año
  ```cpp
  for (int i = 0; i < N; i++) {
@@ -62,13 +63,16 @@ Este seria el calculo para llegar a encontrar la fabrica que mas produjo en el a
 		}
 }
 ```
-Esta vendria siendo la impresion en pantalla donde muestra el mes que mas produjo
+
+Esta vendria siendo la impresion en pantalla donde muestra la clave de la fabrica que mas produjo en el año pasado y cuanto fue lo que produjo
  ```cpp
  cout << "La fábrica que más produjo fue la clave " << FABRICAS[indiceFabricaMayor]
 		 << " con una producción de " << mayorProduccion << endl;
  ```
+
+Para el segundo problema que se nos plantea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzM3NDk4NSwtOTU4MzczOTAsLTEwNj
-g5NDI4MCwtMTc0NjAyOTI2LC0yMDg4NzQ2NjEyLDI2MzgzNjkw
-OSw0NzA4MjUwNzMsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTE5NTExMjM4MjYsLTk1ODM3MzkwLC0xMD
+Y4OTQyODAsLTE3NDYwMjkyNiwtMjA4ODc0NjYxMiwyNjM4MzY5
+MDksNDcwODI1MDczLC0zMzI0NTUzNjNdfQ==
 -->
