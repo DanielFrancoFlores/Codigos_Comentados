@@ -70,9 +70,9 @@ Esta vendria siendo la impresion en pantalla donde muestra la clave de la fabric
 		 << " con una producción de " << mayorProduccion << endl;
  ```
 
-Para el segundo problema que se nos plantea
+Para el segundo problema que se nos plantea **encontra las fabricas que superaron cierta produccion en un mes** que este caso es de **15000
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTExMjM4MjYsLTk1ODM3MzkwLC0xMD
-Y4OTQyODAsLTE3NDYwMjkyNiwtMjA4ODc0NjYxMiwyNjM4MzY5
-MDksNDcwODI1MDczLC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbNDY4MTk1NDU5LC0xOTUxMTIzODI2LC05NT
+gzNzM5MCwtMTA2ODk0MjgwLC0xNzQ2MDI5MjYsLTIwODg3NDY2
+MTIsMjYzODM2OTA5LDQ3MDgyNTA3MywtMzMyNDU1MzYzXX0=
 -->
