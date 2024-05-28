@@ -86,9 +86,11 @@ cout << "¿En qué mes desea saber la producción de las fábricas?: ";
 for (int i = 0; i < N; i++) {
 	if (VentasMes[i][mesInteres - 1] > ProduccionSuperior) {
 			cout << "Clave de fábrica: " << FABRICAS[i] << endl;
+	}
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjg5MTkzODcsLTcyMzI5ODc1MiwtMT
-QyNjgxNTkxNSwtMTk1MTEyMzgyNiwtOTU4MzczOTAsLTEwNjg5
-NDI4MCwtMTc0NjAyOTI2LC0yMDg4NzQ2NjEyLDI2MzgzNjkwOS
-w0NzA4MjUwNzMsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTI4MDA2NzQ3NSwtMTYyODkxOTM4NywtNz
+IzMjk4NzUyLC0xNDI2ODE1OTE1LC0xOTUxMTIzODI2LC05NTgz
+NzM5MCwtMTA2ODk0MjgwLC0xNzQ2MDI5MjYsLTIwODg3NDY2MT
+IsMjYzODM2OTA5LDQ3MDgyNTA3MywtMzMyNDU1MzYzXX0=
 -->
