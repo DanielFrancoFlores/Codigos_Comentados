@@ -113,13 +113,15 @@ Impresion de los datos en pantalla
 cout << "La suma de la producción en meses impares es: " 
 	<< sumaProduccionImpar << endl;
 ```	
+
+Y el ultimo problema a resolver 
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTU0NjczNywtMTIzMTQwMDgxNSwtMT
-MyNjc1NjgwMywtNjc5MTg5MTIyLC0yODAwNjc0NzUsLTE2Mjg5
-MTkzODcsLTcyMzI5ODc1MiwtMTQyNjgxNTkxNSwtMTk1MTEyMz
-gyNiwtOTU4MzczOTAsLTEwNjg5NDI4MCwtMTc0NjAyOTI2LC0y
-MDg4NzQ2NjEyLDI2MzgzNjkwOSw0NzA4MjUwNzMsLTMzMjQ1NT
-M2M119
+eyJoaXN0b3J5IjpbLTgxMTgzNzEwNiwtNjg1NTQ2NzM3LC0xMj
+MxNDAwODE1LC0xMzI2NzU2ODAzLC02NzkxODkxMjIsLTI4MDA2
+NzQ3NSwtMTYyODkxOTM4NywtNzIzMjk4NzUyLC0xNDI2ODE1OT
+E1LC0xOTUxMTIzODI2LC05NTgzNzM5MCwtMTA2ODk0MjgwLC0x
+NzQ2MDI5MjYsLTIwODg3NDY2MTIsMjYzODM2OTA5LDQ3MDgyNT
+A3MywtMzMyNDU1MzYzXX0=
 -->
