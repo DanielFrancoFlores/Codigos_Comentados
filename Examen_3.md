@@ -26,7 +26,7 @@ int FABRICAS[N];
 float VentasMes[N][meses];
  ```
  
- A continuacion, en la siguiente parte del codigo, se hace una lectura de datos, tanto para las claves de las fabricas como para las ventas por mes de cada fabrica
+ A continuacion, en la siguiente parte del codigo, se hace una lectura de datos, tanto para las claves de las fabricas como para las ventas por mes de cada fabrica, el cual para leer matrices o vectores bidimensionales se usan ciclos for
 ```cpp
 // Lectura de las claves de las fábricas 
 cout << "Introduzca las claves de las fábricas:" << endl; 
@@ -51,7 +51,7 @@ cout << "Fábrica " << FABRICAS[i] << ":" << endl;
 int indiceFabricaMayor = 0;
 float mayorProduccion = VentasMes[0][0];
  ```
-
+Este seria el calculo para llegar a encontrar la fabrica que mas produjo en el año, podemos observar que se usa un ciclo for para iterar en la matriz y un if para podr 
  ```cpp
  for (int i = 0; i < N; i++) {
 		 for (int j = 0; j < meses; j++) {
@@ -63,7 +63,7 @@ float mayorProduccion = VentasMes[0][0];
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODM3MzkwLC0xMDY4OTQyODAsLTE3ND
-YwMjkyNiwtMjA4ODc0NjYxMiwyNjM4MzY5MDksNDcwODI1MDcz
-LC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbNDQ4NjI1MDI2LC05NTgzNzM5MCwtMTA2OD
+k0MjgwLC0xNzQ2MDI5MjYsLTIwODg3NDY2MTIsMjYzODM2OTA5
+LDQ3MDgyNTA3MywtMzMyNDU1MzYzXX0=
 -->
