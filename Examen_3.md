@@ -93,9 +93,13 @@ for (int i = 0; i < N; i++) {
 }
 ```
 
-Para el t problema se nos plantea lo siguiente **
+Para el tercer problema se nos plantea lo siguiente **calcular la suma de produccion en meses impares.**
+Primero declararemos una variable flotante, el cual nos servira para la suma de los meses
+```cpp
+float sumaProduccionImpar = 0;
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjUxNjcxNCwtNjc5MTg5MTIyLC0yOD
+eyJoaXN0b3J5IjpbMjAyNTU1MTMxMSwtNjc5MTg5MTIyLC0yOD
 AwNjc0NzUsLTE2Mjg5MTkzODcsLTcyMzI5ODc1MiwtMTQyNjgx
 NTkxNSwtMTk1MTEyMzgyNiwtOTU4MzczOTAsLTEwNjg5NDI4MC
 wtMTc0NjAyOTI2LC0yMDg4NzQ2NjEyLDI2MzgzNjkwOSw0NzA4
