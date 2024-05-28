@@ -75,11 +75,14 @@ Para el segundo problema que se nos plantea **encontra las fabricas que superaro
  const float ProduccionSuperior = 150000;
  int mesInteres;
  ```
+ 
 Aqui leemos al mes que queremos hacer referencia
  ```cpp
 cout << "¿En qué mes desea saber la producción de las fábricas?: ";
 cin >> mesInteres; // Se lee el mes de interés
  ```
+
+
 ```cpp
 cout << "Las fábricas que superaron una producción de " << ProduccionSuperior
 		<< " en el mes " << mesInteres << " son:" << endl;
@@ -89,9 +92,9 @@ for (int i = 0; i < N; i++) {
 	}
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1MTgyOTAyLC0yODAwNjc0NzUsLTE2Mj
-g5MTkzODcsLTcyMzI5ODc1MiwtMTQyNjgxNTkxNSwtMTk1MTEy
-MzgyNiwtOTU4MzczOTAsLTEwNjg5NDI4MCwtMTc0NjAyOTI2LC
-0yMDg4NzQ2NjEyLDI2MzgzNjkwOSw0NzA4MjUwNzMsLTMzMjQ1
-NTM2M119
+eyJoaXN0b3J5IjpbLTY3OTE4OTEyMiwtMjgwMDY3NDc1LC0xNj
+I4OTE5Mzg3LC03MjMyOTg3NTIsLTE0MjY4MTU5MTUsLTE5NTEx
+MjM4MjYsLTk1ODM3MzkwLC0xMDY4OTQyODAsLTE3NDYwMjkyNi
+wtMjA4ODc0NjYxMiwyNjM4MzY5MDksNDcwODI1MDczLC0zMzI0
+NTUzNjNdfQ==
 -->
