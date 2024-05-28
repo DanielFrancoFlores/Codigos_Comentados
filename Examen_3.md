@@ -6,8 +6,8 @@ Los datos de la Secretaría de Economía, relacionado a la producción de las N 
 cpp
 #include <iostream>
 using namespace std;
-´´´
+´´´|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjMwMzYzMSwtMjA4ODc0NjYxMiwyNj
-M4MzY5MDksNDcwODI1MDczLC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTIxNDUxNTI2MzMsLTIwODg3NDY2MTIsMj
+YzODM2OTA5LDQ3MDgyNTA3MywtMzMyNDU1MzYzXX0=
 -->
