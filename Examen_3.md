@@ -100,12 +100,20 @@ float sumaProduccionImpar = 0;
 ```
 for (int j = 0; j < meses; j++) {
 	if (j % 2 != 0) { 
+		for (int i = 0; i < N; i++) {
+			sumaProduccionImpar += VentasMes[i][j]; 
+		}
+	}
+}
+
+			
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzE0MDA4MTUsLTEzMjY3NTY4MDMsLT
-Y3OTE4OTEyMiwtMjgwMDY3NDc1LC0xNjI4OTE5Mzg3LC03MjMy
-OTg3NTIsLTE0MjY4MTU5MTUsLTE5NTExMjM4MjYsLTk1ODM3Mz
-kwLC0xMDY4OTQyODAsLTE3NDYwMjkyNiwtMjA4ODc0NjYxMiwy
-NjM4MzY5MDksNDcwODI1MDczLC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbMTIyMDg0MzEyMSwtMTIzMTQwMDgxNSwtMT
+MyNjc1NjgwMywtNjc5MTg5MTIyLC0yODAwNjc0NzUsLTE2Mjg5
+MTkzODcsLTcyMzI5ODc1MiwtMTQyNjgxNTkxNSwtMTk1MTEyMz
+gyNiwtOTU4MzczOTAsLTEwNjg5NDI4MCwtMTc0NjAyOTI2LC0y
+MDg4NzQ2NjEyLDI2MzgzNjkwOSw0NzA4MjUwNzMsLTMzMjQ1NT
+M2M119
 -->
