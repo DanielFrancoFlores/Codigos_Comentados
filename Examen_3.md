@@ -25,12 +25,29 @@ int FABRICAS[N];
 float VentasMes[N][meses];
 ```
 A continuacion, en la siguiente parte del codigo, se hace una lectura de datos, tanto para las claves de las fábricas como para las ventas por mes de cada fábrica, el cual para leer matrices o vectores bidimensionales se usan ciclos for
+```cpp
+// Lectura de las claves de las fábricas
+cout << "Introduzca las claves de las fábricas:" << endl;
+for (int i = 0; i < N; i++) {
+cout << "[" << i << "]: ";
+cin >> FABRICAS[i];
+}
+// Lectura de las ventas por mes de cada fábrica
+cout << "Introduzca las ventas de las fábricas por mes:" << endl;
+for (int i = 0; i < N; i++) {
+	cout << "Fábrica " << FABRICAS[i] << ":" << endl;
+		for (int j = 0; j < meses; j++) {
+			cout << "Mes " << (j + 1) << ": ";
+			cin >> VentasMes[i][j];
+		}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODE1MDczMyw0OTc4MTg4MTAsLTYzNT
-Q4NDI0NSwxNTA0MzQyNjAwLDc3ODA4NDIzMiwtNjg1NTQ2NzM3
-LC0xMjMxNDAwODE1LC0xMzI2NzU2ODAzLC02NzkxODkxMjIsLT
-I4MDA2NzQ3NSwtMTYyODkxOTM4NywtNzIzMjk4NzUyLC0xNDI2
-ODE1OTE1LC0xOTUxMTIzODI2LC05NTgzNzM5MCwtMTA2ODk0Mj
-gwLC0xNzQ2MDI5MjYsLTIwODg3NDY2MTIsMjYzODM2OTA5LDQ3
-MDgyNTA3M119
+eyJoaXN0b3J5IjpbLTEwOTAwMTAyODYsNDk3ODE4ODEwLC02Mz
+U0ODQyNDUsMTUwNDM0MjYwMCw3NzgwODQyMzIsLTY4NTU0Njcz
+NywtMTIzMTQwMDgxNSwtMTMyNjc1NjgwMywtNjc5MTg5MTIyLC
+0yODAwNjc0NzUsLTE2Mjg5MTkzODcsLTcyMzI5ODc1MiwtMTQy
+NjgxNTkxNSwtMTk1MTEyMzgyNiwtOTU4MzczOTAsLTEwNjg5ND
+I4MCwtMTc0NjAyOTI2LC0yMDg4NzQ2NjEyLDI2MzgzNjkwOSw0
+NzA4MjUwNzNdfQ==
 -->
