@@ -1,6 +1,6 @@
-# Documentancion de codigo
+# Documentación de código
 
-#### Daniel Rigoberto Franco Flores 
+#### Daniel Rigoberto Franco Flores
 
 Los datos de la Secretaría de Economía, relacionado a la producción de las N fábricas en cada uno de los meses del año anterior, en este problema nos plantean diferentes resoluciones o problemas a resolver que veremos a continuación:
 
@@ -131,10 +131,11 @@ Despues iniciamos una variable flotante para poder calcular el promedio anual de
 ```cpp
 float promedioAnual = sumaTotalProduccion / (N * meses);
 ```
-
+Por ultimo imprimimos el resultado en pantalla
 ```cpp 
 cout << "El promedio general anual de producción es: " << promedioAnual << endl;
 ```
+Fin del codigo
 ```cpp
 return 0;
 }
@@ -142,11 +143,11 @@ return 0;
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE3MDU4MTYxLC02MzU0ODQyNDUsMTUwND
-M0MjYwMCw3NzgwODQyMzIsLTY4NTU0NjczNywtMTIzMTQwMDgx
-NSwtMTMyNjc1NjgwMywtNjc5MTg5MTIyLC0yODAwNjc0NzUsLT
-E2Mjg5MTkzODcsLTcyMzI5ODc1MiwtMTQyNjgxNTkxNSwtMTk1
-MTEyMzgyNiwtOTU4MzczOTAsLTEwNjg5NDI4MCwtMTc0NjAyOT
-I2LC0yMDg4NzQ2NjEyLDI2MzgzNjkwOSw0NzA4MjUwNzMsLTMz
-MjQ1NTM2M119
+eyJoaXN0b3J5IjpbMTUzNTcwMjU1NSwtNjM1NDg0MjQ1LDE1MD
+QzNDI2MDAsNzc4MDg0MjMyLC02ODU1NDY3MzcsLTEyMzE0MDA4
+MTUsLTEzMjY3NTY4MDMsLTY3OTE4OTEyMiwtMjgwMDY3NDc1LC
+0xNjI4OTE5Mzg3LC03MjMyOTg3NTIsLTE0MjY4MTU5MTUsLTE5
+NTExMjM4MjYsLTk1ODM3MzkwLC0xMDY4OTQyODAsLTE3NDYwMj
+kyNiwtMjA4ODc0NjYxMiwyNjM4MzY5MDksNDcwODI1MDczLC0z
+MzI0NTUzNjNdfQ==
 -->
