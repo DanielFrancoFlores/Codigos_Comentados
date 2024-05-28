@@ -70,9 +70,14 @@ Esta vendria siendo la impresion en pantalla donde muestra la clave de la fabric
 		 << " con una producción de " << mayorProduccion << endl;
  ```
 
-Para el segundo problema que se nos plantea **encontra las fabricas que superaron cierta produccion en un mes** que este caso es de **15000
+Para el segundo problema que se nos plantea **encontra las fabricas que superaron cierta produccion en un mes** que este caso es de **150000**
+ ```cpp
+ const float ProduccionSuperior = 150000;
+ int mesInteres;
+ ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4MTk1NDU5LC0xOTUxMTIzODI2LC05NT
-gzNzM5MCwtMTA2ODk0MjgwLC0xNzQ2MDI5MjYsLTIwODg3NDY2
-MTIsMjYzODM2OTA5LDQ3MDgyNTA3MywtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTE0MjY4MTU5MTUsLTE5NTExMjM4MjYsLT
+k1ODM3MzkwLC0xMDY4OTQyODAsLTE3NDYwMjkyNiwtMjA4ODc0
+NjYxMiwyNjM4MzY5MDksNDcwODI1MDczLC0zMzI0NTUzNjNdfQ
+==
 -->
