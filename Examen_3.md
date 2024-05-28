@@ -98,6 +98,8 @@ Primero declararemos una variable flotante, el cual nos servira para la suma de 
 ```cpp
 float sumaProduccionImpar = 0;
 ```
+
+```cpp
 for (int j = 0; j < meses; j++) {
 	if (j % 2 != 0) { 
 		for (int i = 0; i < N; i++) {
@@ -105,12 +107,12 @@ for (int j = 0; j < meses; j++) {
 		}
 	}
 }
-
+```
 			
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDg0MzEyMSwtMTIzMTQwMDgxNSwtMT
+eyJoaXN0b3J5IjpbMTAyNzEyMzMxMiwtMTIzMTQwMDgxNSwtMT
 MyNjc1NjgwMywtNjc5MTg5MTIyLC0yODAwNjc0NzUsLTE2Mjg5
 MTkzODcsLTcyMzI5ODc1MiwtMTQyNjgxNTkxNSwtMTk1MTEyMz
 gyNiwtOTU4MzczOTAsLTEwNjg5NDI4MCwtMTc0NjAyOTI2LC0y
