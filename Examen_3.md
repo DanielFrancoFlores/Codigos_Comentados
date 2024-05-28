@@ -65,12 +65,26 @@ Esta vendría siendo la impresión en pantalla donde muestra la clave de la fáb
 cout << "La fábrica que más produjo fue la clave " << FABRICAS[indiceFabricaMayor]
 	<< " con una producción de " << mayorProduccion << endl;
 ```
+Para el segundo problema que se nos plantea **encontra las fábricas que superaron cierta producción en un mes** que este caso es de **150000** y el mes que nos interesara saber o investigar
+```cpp
+const float ProduccionSuperior = 150000;
+int mesInteres;
+Aquí leemos al mes que queremos hacer referencia
+
+```cpp
+
+cout << "¿En qué mes desea saber la producción de las fábricas?: ";
+
+cin >> mesInteres; // Se lee el mes de interés
+
+```
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDk3MDQ2Miw0OTc4MTg4MTAsLTYzNT
-Q4NDI0NSwxNTA0MzQyNjAwLDc3ODA4NDIzMiwtNjg1NTQ2NzM3
-LC0xMjMxNDAwODE1LC0xMzI2NzU2ODAzLC02NzkxODkxMjIsLT
-I4MDA2NzQ3NSwtMTYyODkxOTM4NywtNzIzMjk4NzUyLC0xNDI2
-ODE1OTE1LC0xOTUxMTIzODI2LC05NTgzNzM5MCwtMTA2ODk0Mj
-gwLC0xNzQ2MDI5MjYsLTIwODg3NDY2MTIsMjYzODM2OTA5LDQ3
-MDgyNTA3M119
+eyJoaXN0b3J5IjpbMzk1NDQzNDE4LDQ5NzgxODgxMCwtNjM1ND
+g0MjQ1LDE1MDQzNDI2MDAsNzc4MDg0MjMyLC02ODU1NDY3Mzcs
+LTEyMzE0MDA4MTUsLTEzMjY3NTY4MDMsLTY3OTE4OTEyMiwtMj
+gwMDY3NDc1LC0xNjI4OTE5Mzg3LC03MjMyOTg3NTIsLTE0MjY4
+MTU5MTUsLTE5NTExMjM4MjYsLTk1ODM3MzkwLC0xMDY4OTQyOD
+AsLTE3NDYwMjkyNiwtMjA4ODc0NjYxMiwyNjM4MzY5MDksNDcw
+ODI1MDczXX0=
 -->
