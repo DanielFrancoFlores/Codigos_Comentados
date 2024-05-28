@@ -140,32 +140,16 @@ Fin del codigo
 return 0;
 }
 ```
-```cpp
-// Lectura de las claves de las fábricas
-cout << "Introduzca las claves de las fábricas:" << endl;
-for (int i = 0; i < N; i++) {
-cout << "[" << i << "]: ";
-cin >> FABRICAS[i];
-}
-// Lectura de las ventas por mes de cada fábrica
-cout << "Introduzca las ventas de las fábricas por mes:" << endl;
-for (int i = 0; i < N; i++) {
-cout << "Fábrica " << FABRICAS[i] << ":" << endl;
-	for (int j = 0; j < meses; j++) {
-		cout << "Mes " << (j + 1) << ": ";
-		cin >> VentasMes[i][j];
-	}
-}
 
-```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjczMDE4OTIsLTYzNTQ4NDI0NSwxNT
-A0MzQyNjAwLDc3ODA4NDIzMiwtNjg1NTQ2NzM3LC0xMjMxNDAw
-ODE1LC0xMzI2NzU2ODAzLC02NzkxODkxMjIsLTI4MDA2NzQ3NS
-wtMTYyODkxOTM4NywtNzIzMjk4NzUyLC0xNDI2ODE1OTE1LC0x
-OTUxMTIzODI2LC05NTgzNzM5MCwtMTA2ODk0MjgwLC0xNzQ2MD
-I5MjYsLTIwODg3NDY2MTIsMjYzODM2OTA5LDQ3MDgyNTA3Mywt
-MzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbMTg4ODcyMzk5LC02MzU0ODQyNDUsMTUwND
+M0MjYwMCw3NzgwODQyMzIsLTY4NTU0NjczNywtMTIzMTQwMDgx
+NSwtMTMyNjc1NjgwMywtNjc5MTg5MTIyLC0yODAwNjc0NzUsLT
+E2Mjg5MTkzODcsLTcyMzI5ODc1MiwtMTQyNjgxNTkxNSwtMTk1
+MTEyMzgyNiwtOTU4MzczOTAsLTEwNjg5NDI4MCwtMTc0NjAyOT
+I2LC0yMDg4NzQ2NjEyLDI2MzgzNjkwOSw0NzA4MjUwNzMsLTMz
+MjQ1NTM2M119
 -->
