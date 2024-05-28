@@ -90,8 +90,18 @@ Primero declararemos una variable flotante, el cual nos servirá para la suma de
 ```cpp
 float sumaProduccionImpar = 0;
 ```
+Haremos los cálculos para poder resolver el problema indicado, acá usaremos un ciclo for en j para los meses y en eso haremos un if para poder ejecutar las suma en los meses impares, dentro del if, un ciclo for pero en i para hacer la sumatoria de las ventas de las empresas en los meses impares
+```cpp
+for (int j = 0; j < meses; j++) {
+	if (j % 2 != 0) {
+		for (int i = 0; i < N; i++) {
+			sumaProduccionImpar += VentasMes[i][j];
+		}
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDA5Nzk2Niw0OTc4MTg4MTAsLTYzNT
+eyJoaXN0b3J5IjpbLTE3NjUwNDc1Nyw0OTc4MTg4MTAsLTYzNT
 Q4NDI0NSwxNTA0MzQyNjAwLDc3ODA4NDIzMiwtNjg1NTQ2NzM3
 LC0xMjMxNDAwODE1LC0xMzI2NzU2ODAzLC02NzkxODkxMjIsLT
 I4MDA2NzQ3NSwtMTYyODkxOTM4NywtNzIzMjk4NzUyLC0xNDI2
