@@ -84,9 +84,11 @@ cin >> mesInteres; // Se lee el mes de interés
 cout << "¿En qué mes desea saber la producción de las fábricas?: ";
 		<< " en el mes " << mesInteres << " son:" << endl;
 for (int i = 0; i < N; i++) {
+	if (VentasMes[i][mesInteres - 1] > ProduccionSuperior) {
+			cout << "Clave de fábrica: " << FABRICAS[i] << endl;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjI5ODY5OCwtNzIzMjk4NzUyLC0xND
-I2ODE1OTE1LC0xOTUxMTIzODI2LC05NTgzNzM5MCwtMTA2ODk0
-MjgwLC0xNzQ2MDI5MjYsLTIwODg3NDY2MTIsMjYzODM2OTA5LD
-Q3MDgyNTA3MywtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTE2Mjg5MTkzODcsLTcyMzI5ODc1MiwtMT
+QyNjgxNTkxNSwtMTk1MTEyMzgyNiwtOTU4MzczOTAsLTEwNjg5
+NDI4MCwtMTc0NjAyOTI2LC0yMDg4NzQ2NjEyLDI2MzgzNjkwOS
+w0NzA4MjUwNzMsLTMzMjQ1NTM2M119
 -->
