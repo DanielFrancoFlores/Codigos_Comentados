@@ -54,10 +54,16 @@ float mayorProduccion = VentasMes[0][0];
 
  ```cpp
  for (int i = 0; i < N; i++) {
-	 for (int j = 0; j < meses; j++) {
-	 |if (VentasMes[i][j] > mayorProduccion) {
+		 for (int j = 0; j < meses; j++) {
+			 if (VentasMes[i][j] > mayorProduccion) {
+				 mayorProduccion = VentasMes[i][j];
+				 indiceFabricaMayor = i;
+			 }
+		}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzE1NDY1NzUsLTEwNjg5NDI4MCwtMT
-c0NjAyOTI2LC0yMDg4NzQ2NjEyLDI2MzgzNjkwOSw0NzA4MjUw
-NzMsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTk1ODM3MzkwLC0xMDY4OTQyODAsLTE3ND
+YwMjkyNiwtMjA4ODc0NjYxMiwyNjM4MzY5MDksNDcwODI1MDcz
+LC0zMzI0NTUzNjNdfQ==
 -->
