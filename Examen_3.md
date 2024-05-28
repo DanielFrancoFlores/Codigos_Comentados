@@ -121,7 +121,7 @@ for (int i = 0; i < N; i++) {
 ```
 Después iniciamos una variable flotante para poder calcular el promedio anual de la suma total de los meses
 ```cpp
-float promedioAnual = sumaTotalProduccion / (N*meses);
+float promedioAnual = sumaTotalProduccion / (N *meses);
 ```
 Por ultimo imprimimos el resultado en pantalla
 ```cpp
@@ -133,11 +133,11 @@ return 0;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxMTQ1OTQxLC0xNjgxMTIxMTc1LDQ5Nz
-gxODgxMCwtNjM1NDg0MjQ1LDE1MDQzNDI2MDAsNzc4MDg0MjMy
-LC02ODU1NDY3MzcsLTEyMzE0MDA4MTUsLTEzMjY3NTY4MDMsLT
-Y3OTE4OTEyMiwtMjgwMDY3NDc1LC0xNjI4OTE5Mzg3LC03MjMy
-OTg3NTIsLTE0MjY4MTU5MTUsLTE5NTExMjM4MjYsLTk1ODM3Mz
-kwLC0xMDY4OTQyODAsLTE3NDYwMjkyNiwtMjA4ODc0NjYxMiwy
-NjM4MzY5MDldfQ==
+eyJoaXN0b3J5IjpbLTkzNTc0NTg1Nyw1MzExNDU5NDEsLTE2OD
+ExMjExNzUsNDk3ODE4ODEwLC02MzU0ODQyNDUsMTUwNDM0MjYw
+MCw3NzgwODQyMzIsLTY4NTU0NjczNywtMTIzMTQwMDgxNSwtMT
+MyNjc1NjgwMywtNjc5MTg5MTIyLC0yODAwNjc0NzUsLTE2Mjg5
+MTkzODcsLTcyMzI5ODc1MiwtMTQyNjgxNTkxNSwtMTk1MTEyMz
+gyNiwtOTU4MzczOTAsLTEwNjg5NDI4MCwtMTc0NjAyOTI2LC0y
+MDg4NzQ2NjEyXX0=
 -->
