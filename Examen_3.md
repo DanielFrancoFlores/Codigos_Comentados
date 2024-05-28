@@ -25,6 +25,7 @@ En esta seccion del codigo declaramos las siguientes matrices:
 int FABRICAS[N]; 
 float VentasMes[N][meses];
  ```
+ 
  A continuacion, en la siguiente parte del codigo, se hace una lectura de datos, tanto para las claves de las fabricas como para las ventas por mes de cada fabrica
 ```cpp
 // Lectura de las claves de las fábricas 
@@ -43,8 +44,13 @@ cout << "Fábrica " << FABRICAS[i] << ":" << endl;
 	} 
 }
  ```
+ 
+```cpp
+int indiceFabricaMayor = 0;
+float mayorProduccion = VentasMes[0][0];
+ ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMjU2MjY1NSwtMTA2ODk0MjgwLC0xNz
+eyJoaXN0b3J5IjpbLTQyNDA3MTI4NSwtMTA2ODk0MjgwLC0xNz
 Q2MDI5MjYsLTIwODg3NDY2MTIsMjYzODM2OTA5LDQ3MDgyNTA3
 MywtMzMyNDU1MzYzXX0=
 -->
