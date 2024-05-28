@@ -98,7 +98,7 @@ Primero declararemos una variable flotante, el cual nos servira para la suma de 
 ```cpp
 float sumaProduccionImpar = 0;
 ```
-Haremos los calculos para poder resolver el problema indicado, aca usaremos un ciclo for en j para los meses y 
+Haremos los calculos para poder resolver el problema indicado, aca usaremos un ciclo for en j para los meses y  en eso haremos un if para poder ejecutar las  
 ```cpp
 for (int j = 0; j < meses; j++) {
 	if (j % 2 != 0) { 
@@ -112,7 +112,7 @@ for (int j = 0; j < meses; j++) {
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MTI3MDY3MCwtMTIzMTQwMDgxNSwtMT
+eyJoaXN0b3J5IjpbMTE2MjU4NDgyMiwtMTIzMTQwMDgxNSwtMT
 MyNjc1NjgwMywtNjc5MTg5MTIyLC0yODAwNjc0NzUsLTE2Mjg5
 MTkzODcsLTcyMzI5ODc1MiwtMTQyNjgxNTkxNSwtMTk1MTEyMz
 gyNiwtOTU4MzczOTAsLTEwNjg5NDI4MCwtMTc0NjAyOTI2LC0y
