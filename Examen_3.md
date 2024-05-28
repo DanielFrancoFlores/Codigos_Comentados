@@ -82,7 +82,7 @@ cout << "¿En qué mes desea saber la producción de las fábricas?: ";
 cin >> mesInteres; // Se lee el mes de interés
  ```
 
-Esta parte del codigo, muestra los calculos y muestra el codigo de las fabricas que superaron la canttidad de produccion al mes, esto se logra con 
+Esta parte del codigo, muestra los calculos y muestra el codigo de las fabricas que superaron la canttidad de produccion al mes, esto se logra con un ciclo for para las claves de las empresas y con una comparacion hecha por un if de si la produccion hecha en ese mes 
 ```cpp
 cout << "Las fábricas que superaron una producción de " << ProduccionSuperior
 		<< " en el mes " << mesInteres << " son:" << endl;
@@ -92,7 +92,7 @@ for (int i = 0; i < N; i++) {
 	}
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzU3Nzc3OCwtNjc5MTg5MTIyLC0yOD
+eyJoaXN0b3J5IjpbMTAzMTU0NTA5NCwtNjc5MTg5MTIyLC0yOD
 AwNjc0NzUsLTE2Mjg5MTkzODcsLTcyMzI5ODc1MiwtMTQyNjgx
 NTkxNSwtMTk1MTEyMzgyNiwtOTU4MzczOTAsLTEwNjg5NDI4MC
 wtMTc0NjAyOTI2LC0yMDg4NzQ2NjEyLDI2MzgzNjkwOSw0NzA4
